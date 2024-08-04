@@ -32,3 +32,17 @@ git reset --hard   nos lleva al punto indicado y borra todo lo que se realizo de
 y para deshacer el hard
 
 git reflog (Historial completo de commit y todo lo realizado)
+
+ git tag clase_1 (Esto estando en el punto que queremos marcar)
+
+ git checkout tags/clase_1 (Esto para ir a ese punto guardado )
+
+git revert (es peligroso para eliminar un commit determinado Peligroso)
+
+
+Crear una nueva rama
+
+Git Branch login
+
+
+
