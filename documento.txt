@@ -44,5 +44,25 @@ Crear una nueva rama
 
 Git Branch login
 
+git branch login
+ git switch login
+
+git merge master (se tre lo que esta en master a la rama login)
+
+git stash (guardar algo pero vque no esta terminado pero debo moverme guardado temporal )
+
+luego si me puedo cambiar
+
+git switch master (lo que es en login puede no ser terminado aun y me deja cambiarme por el stash) 
+
+git stach pop (recupera lo que tenia temporal)
+git stash drop (no recupera nada de lo que tenia temporalment)
+
+
+si todo esta bien 
+git branch -d login (eliminar la rama)
+
+
+
 
 
