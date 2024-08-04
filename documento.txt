@@ -1,0 +1,34 @@
+. code
+git config --global user.name ="jmateus"
+git config --global user.email = "vdfdf@dfs.com"
+touch hellogit.py
+git init
+git status
+git add hellogit.py
+git commit -m "Primer commit"
+git log
+
+
+git checkout hellogit.py (no guardar ultimo cambio)
+git reset (actualiza sin cambiar el ultimo cambio)
+
+
+git config --global alias.tree "log --graph --decorate --all --oneline"
+git tree
+
+touch .gitignore (crear archivo de los nombres de archivos a ignorar)
+dentro de gitignore
+**/<.nombredel archivo>
+**/.DS_store
+
+git add .gitignore
+git commit -m "Se añade el gitignore"
+
+Si queremos ver los cambios antes de (git add)
+git diff
+
+git reset --hard   nos lleva al punto indicado y borra todo lo que se realizo después
+
+y para deshacer el hard
+
+git reflog (Historial completo de commit y todo lo realizado)
