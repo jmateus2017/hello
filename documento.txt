@@ -62,6 +62,28 @@ git stash drop (no recupera nada de lo que tenia temporalment)
 si todo esta bien 
 git branch -d login (eliminar la rama)
 
+crear valdacion ssh en GitHub
+ ssh-keygen -t ed25519 -C "jairomateus2011@gmail.com"
+
+eval "$(ssh-agent -s)"
+
+
+/*** Agregar la clave publica en GitHub (proceso en github)
+ssh -T git@github.com
+si da mensaje de agregar se agrega yes
+ssh -T git@github.com
+
+
+git remote add origin git@github.com:jmateus2017/hello.git
+
+git push -u origin main
+git push -u origin master
+
+
+
+
+
+
 
 
 
